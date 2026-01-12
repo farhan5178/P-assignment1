@@ -43,7 +43,7 @@ nav{
     cursor: pointer;
 }
 .banner-info{
-    background: url("/assets/hero-bg.png");
+    background: url("../assets/hero-bg.png");
     background-repeat: no-repeat;
     width: 1600px;
     height: 674px;
