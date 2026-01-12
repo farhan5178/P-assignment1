@@ -1,0 +1,284 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #ffffff;
+}
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+header{
+    margin: 16px 120px; 
+}
+nav{
+     width: 90%;
+    max-width: 1905px;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu li{
+    list-style: none;
+    display: flex;
+    padding-right: 32px;
+    text-align: center;
+    display: inline-block;
+    max-width: 167px;
+    max-height: 24px;
+}
+.btn{
+    height: 44px;
+    width: 164px;
+    color: white;
+    background-color:#30b868;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.banner-info{
+    background: url("/assets/hero-bg.png");
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 674px;
+    margin: 16px 120px;
+}
+.banner-text{
+    text-align: center;
+    width: 1360px;
+    height: 380px;
+    padding: 70px 134px 120px;
+}
+.banner-text .btn-small{
+    color:#30b868 ;
+    border: none;
+    border-radius:17px ;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+    cursor: pointer;
+
+
+}
+.green{
+    color: #30b868;
+}
+.banner-text h1{
+    margin: 16px 0px;
+    font-size: 48px;
+    color: #ffffff;
+    
+}
+.banner-text p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    padding-top: 16px;
+}
+.banner-btn{
+    padding-top: 32px;
+    cursor: pointer;
+   
+     
+ 
+}
+.banner-btn1{
+    width: 251px;
+    height: 52px;
+    margin: 16px;
+    background-color: #30b868;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+     justify-content: space-between;
+     cursor: pointer;
+
+
+}
+.banner-btn2{
+    width: 198px;
+    height: 52px;
+    background: none;
+   color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid rgb(255, 255, 255) ;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 16px;
+    cursor: pointer;
+    
+
+    
+
+}
+#heading{
+    margin: 0 341px;
+}
+.heading-content  {
+    text-align: center;
+    padding-bottom: 44px;
+    
+}
+.heading-content h1 {
+    font-size: 48px;
+    
+}
+.heading-content p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    padding-bottom: 44px;
+    padding-top: 25px;
+}
+
+.main-card{
+    width: 1360px;
+    height: 300px;
+    display: flex;
+    gap:24px ;
+    align-items: center;
+    
+}
+.card{
+    height: 300px;
+    width: 322px;
+    box-shadow:0 6px 50px 0  #00000027 ;
+    padding: 24px;
+}
+.c-img{
+    background-color: red;
+    border-radius: 100px;
+    border: none;
+   
+    
+
+}
+.card h3{
+    font-weight: 600;
+    font-size: 24px;
+    align-items: center;
+    padding: 16px;
+}
+.card p{
+    line-height: 20px;
+    font-size: 16px;
+    color: #627382;
+}
+#component{
+margin: 120px 341px;
+display: flex;
+gap:60px ;
+
+
+}
+.component img{
+    height: 30px;
+    width: 600px;
+}
+.component-box{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 700px;
+
+}
+.component-box .p1{
+    font-size: 16px;
+    color: #30b868;
+
+}
+.component-box h2{
+    font-weight: bold;
+    font-size: 48px;
+}
+.component-box .p2{
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 40px;
+    color: #627382;
+}
+
+.component-text {
+    display: flex;
+    padding-top: 16px;
+   
+
+}
+.component-box p{
+     font-size: 12px;
+}
+#ready{
+    margin: 120px 341px;
+display: flex;
+gap:60px ;
+}
+.more-info{
+    background-color:#f7f6f2 ;
+    padding: 80px 40px;
+    height: 385px;
+    width: 1660px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    text-align: center; 
+}
+   
+
+.more-info h1{
+   
+    padding-bottom: 16px;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.more-info p{
+    font-size: 16px;
+color: #627382;
+line-height: 24px;
+padding-bottom: 16px;
+
+}
+.more-info .btn{
+    margin-bottom: 16px;
+
+    
+}
+#footer{
+    width: 1600px;
+    height: 348px;
+    margin: 16px 120px;
+    background-color: #001931;
+
+}
+.footer-info{
+    padding: 120px 120px 0;
+}
+.logo-info{
+    justify-content: space-between;
+    display: flex;
+}
+.icon p{
+    color: white;
+    font-size: 20;
+    margin-bottom: 5px;
+
+}
+.footer{
+    padding-top: 120px;
+}
+.footer p{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+     border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
